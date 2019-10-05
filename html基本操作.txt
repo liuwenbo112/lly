@@ -1,0 +1,195 @@
+
+<HTML>
+<head>
+<p> hello      &nbsp;&lt;刘文博&gt;&infin;&nbsp;&yen;&ne;         word </p>
+<hr/>
+<p>第一段 世界大势，合久必分，分久必合。<br/>	第二段 滚滚长江东逝水</p>
+<head>
+<HTML>
+<h1>Hello world,HTML</h1>
+<h2>Hello world,HTML</h2>
+<h3>Hello world,HTML</h3>
+<a href = "http://www.baidu.com">点击进入百度</a>
+<br/>
+<b>粗体</b> <i>斜体</i> <del>本文字已删除，请忽略</del>
+<br/>
+<p><big>首</big>字母缩写</p>
+<em>重点文字</em>
+<p>刘文博<sub>刘文博<sub/></p>
+<p>刘文博<sup>刘文博<sup/></p>
+<p>刘文博<ins>1<ins/></p>
+<p>刘文博<strong>余娇娇<strong/></p>
+<p>青山依旧在</p>
+<p>几度夕阳红</p>
+<p>青山依旧在<br/>几度夕阳红</p>
+<a href = "http://www.baidu.com"target = "_self">点击进入百度</a>
+<br/>
+<img src = "http://mysite.com/mypic.png" alt = "网站作者的照片"/>
+<p>用图片实现超连接</p>
+<a href = "http://mysite.com/readme.html" target = "_self">
+<img src = "http://mysite.com/mypic.png" alt = "网站作者的照片">
+</a>
+<h3>普通无边框表格：</h3>
+<table>
+<tr>
+ <td>row 1 cell 1</td> <td>row 1 cell 2 </td> <td>row 1 cell 3</td>
+</tr>
+<tr>
+ <td>row 2 cell 1</td> <td>row 2 cell 2 </td> <td>row 2 cell 3</td>
+</tr>
+<table>
+<h3>带表头、有边框、有跨列单元：</h3>
+<table border = "3">
+<tr>
+ <th> head 1</th> <th> head 2</th> <th> head 3 </th> 
+</tr>
+<tr>
+ <td rowspan = "2">row 1 cell 1</td> <td>row 1 cell 2 </td> <td>row 1 cell 3</td>
+</tr>
+<tr>
+ <td colspan = "2"> row 2 cell 2 </td>
+</tr>
+</table>
+<h3>三种列表的表达式：</h3>
+<table cellpadding = "2" cellspacing = "2">
+<tr>
+ <td>
+  <ul> <li>Python</li> <li>C++</li> <li>Java</li> <Li>Golang</li> </ul>
+ </td>
+ <td>
+  <ol> <li>大象</li> <li>狮子</li> <li>花豹</li> <li>狐狸</li> </ol>
+ </td>
+ <td>
+ </td>
+</tr>
+</table>
+<dl>
+ <dt>CPU</dt> <dd>中央处理器，是一块超大规模的集成电路，是一台计算机的运算核心和控制核心。</dd>
+ <dt>内存</dt> <dd>中央处理器处理数据时的转接空间，越大越好。</dd>
+</dl>
+<body bgcolor = "rgb(150,100,50)">
+<object
+classid = "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+codebase = "http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab">
+<embed src = "flashfile.swf" width = "300" height = "200"></embed>
+</object>
+<audio controls = "controls">
+ <source src = "sample_song.mp3"/ >
+</audio>
+<vedio controls = "controls">
+ <source src = "sample_video.mp4" type = "vedio/mp4"/>
+</vedio>
+<!---------------------------------文本输入---------------------------->
+
+<table>
+<tr>
+<td> 用户名：</td>
+<td> <input type="text" name="name"> </td>
+<td> 密码：</td>
+<td> <input type="password" name="pass"> </td>
+</tr>
+<tr>
+<td colspan = "2"> 备注：</td>
+</tr>
+<tr>
+<td colspan = "4"> <textarea name = "comment" row = "5" cols = "60"> </textarea> </td>
+</tr>
+</table>
+<!-------------------------------单项选择--------------------------------->
+<table>
+<!-------------------------------单选按钮--------------------------------->
+<tr>
+<td> 性别: </td>
+<td> 男性<input type="radio" checked = "checked" name = "Sex" value = "male" /> </td>
+<td> 女性<input type="radio" name = "Sex" value = "female" /> </td>
+<!-------------------------------下拉列表---------------------------------->
+<tr>
+<td> 学历：</td>
+<td colspan = "2">
+<select name="grade">
+<option value="middle_school">高中及以下</option>
+<option value = "high_school">专科</option>
+<option value = "bachlor" selected = "selected">本科</option>
+<option value = "master">研究生及以上</option>
+</select>
+</td>
+</tr>
+</table>
+<!------------------------------多项选择------------------------------------------->
+<table>
+<tr>
+<td rowspan = "2">兴趣爱好：</td>
+<td> 运动：<input type = "checkbox" name = "sport" </td>
+<td> 电影：<input type = "checkbox" name = "movie" </td>
+<td> 音乐：<input type = "checkbox" name = "music" </td>
+</tr>
+<tr>
+<td> 编程：<input type = "checkbox" name = "programming" </td>
+<td> 下厨：<input type = "checkbox" name = "cooking" </td>
+<td> 旅游：<input type = "checkbox" name = "tour" </td>
+</tr>
+</table>
+<!------------------------------------文件上传-------------------------------------->
+<tr>
+<td> 头像上传：<input type = "file" name = "pic" accept = ".png .jpg,.gif"> </td>
+</tr>
+
+<from name = "input" action = "url_from_action">
+<fieldset>
+<legend>用户注册</legend>
+<table>
+<tr>
+<td> 用户名：</td>
+<td> <input type="text" name="name"> </td>
+<td> 密码：</td>
+<td> <input type="password" name="pass"> </td>
+</tr>
+<tr>
+<td colspan = "2"> 备注：</td>
+</tr>
+<tr>
+<td colspan = "4"> <textarea name = "comment" row = "5" cols = "60"> </textarea> </td>
+</tr>
+</table>
+<!-------------------------------单项选择--------------------------------->
+<table>
+<!-------------------------------单选按钮--------------------------------->
+<tr>
+<td> 性别: </td>
+<td> 男性<input type="radio" checked = "checked" name = "Sex" value = "male" /> </td>
+<td> 女性<input type="radio" name = "Sex" value = "female" /> </td>
+<!-------------------------------下拉列表---------------------------------->
+<tr>
+<td> 学历：</td>
+<td colspan = "2">
+<select name="grade">
+<option value="middle_school">高中及以下</option>
+<option value = "high_school">专科</option>
+<option value = "bachlor" selected = "selected">本科</option>
+<option value = "master">研究生及以上</option>
+</select>
+</td>
+</tr>
+</table>
+<!------------------------------多项选择------------------------------------------->
+<table>
+<tr>
+<td rowspan = "2">兴趣爱好：</td>
+<td> 运动：<input type = "checkbox" name = "sport" </td>
+<td> 电影：<input type = "checkbox" name = "movie" </td>
+<td> 音乐：<input type = "checkbox" name = "music" </td>
+</tr>
+<tr>
+<td> 编程：<input type = "checkbox" name = "programming" </td>
+<td> 下厨：<input type = "checkbox" name = "cooking" </td>
+<td> 旅游：<input type = "checkbox" name = "tour" </td>
+</tr>
+</table>
+<!------------------------------------文件上传-------------------------------------->
+<tr>
+<td> 头像上传：<input type = "file" name = "pic" accept = ".png,.jpg,.gif" >
+</tr>
+<br></br>
+<input type = "submit" value = "注册"/>
+</fieldset>
+</from>
