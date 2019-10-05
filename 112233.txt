@@ -11,10 +11,9 @@ div.rightframe {background-color:#88BB99;height:200px;width:50%;float:left;paddi
  <div class="container">
  <div class = "leftframe">
   <ul>
-   <li>班级列表</li>
    <li>学生查询</li>
    <li>成绩查询</li>
-   <li>学校查询</li>
+   <li>老师查询</li>
   </ul>
  </div>
 <div class="rightframe">页面主体内容</div>
