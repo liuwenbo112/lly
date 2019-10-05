@@ -13,7 +13,6 @@ div.rightframe {background-color:#88BB99;height:200px;width:50%;float:left;paddi
   <ul>
    <li>学生查询</li>
    <li>成绩查询</li>
-   <li>班级查询</li>
   </ul>
  </div>
 <div class="rightframe">页面主体内容</div>
