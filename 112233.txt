@@ -16,6 +16,7 @@ div.rightframe {background-color:#88BB99;height:200px;width:50%;float:left;paddi
    <li>1</li>
    <li>王者荣耀</li>
    <li>大宝</li>
+   <li>生鲜</li>
   </ul>
  </div>
 <div class="rightframe">页面主体内容</div>
